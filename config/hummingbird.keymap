@@ -20,14 +20,19 @@
 #define KEYS_R 5 6 7 8 9 15 16 17 18 19 25 26 27 28 29
 #define THUMBS 30 31 32 33
 
-&lt {
-    quick-tap-ms = <200>;
-    flavor = "hold-preferred";
+&sk {  // sticky-key config
+    release-after-ms = <1000>; // release after 1s
+    quick-release;             // no double capitalization when rolling keys
 };
 
-&mt {
-    quick-tap-ms = <200>;
+&sl {  // sticky-layer config
+    ignore-modifiers;          // allow chording sticky mods & layers
+};
+
+&lt {  // layer-tap config
     flavor = "balanced";
+    tapping-term-ms = <200>;
+    quick-tap-ms = <QUICK_TAP_MS>;
 };
 
 / {
@@ -72,16 +77,16 @@
 &kp GRAVE  &kp TILDE  &kp AT  &kp CARET  &kp HASH    &kp MINUS    &kp N7  &kp N8  &kp N9  &kp STAR
 &kp DLLR  &kp AMPS  &kp PRCNT  &kp UNDER  &kp PIPE   &kp PLUS    &kp N4  &kp N5  &kp N6  &kp SLASH
     &kp EXCL &kp SINGLE_QUOTE &kp DOUBLE_QUOTES                   &kp N1  &kp N2  &kp N3
-                                &trans    &trans       &kp EQUAL &kp BACKSLASH
+                                &trans    &trans       &kp N0 &kp BACKSLASH
             >;
         };
 
         sym_layer {
             bindings = <
-&kp INS  &kp N1  &kp N2  &kp N3     &kp DOT    &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &kp COLON
-&kp DEL  &kp N4  &kp N5  &kp N6     &kp N0     &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp RSHFT
-         &kp N7  &kp N8  &kp N9                          &kp RGUI   &kp RALT   &kp RCTRL
-                         &trans  &trans     &trans    &trans
+&kp SEMI  &kp COLON  &kp LT  &kp GT     &kp DOT      &kp C_VOL_UP  &kp C_VOL_DN  &kp K_MUTE  &kp END    &kp PG_UP
+&kp LBKT  &kp RBKT  &kp LPAR  &kp RPAR &kp COMMA     &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp PG_DN
+         &EQUAL  &kp LBRC  &kp RBRC                          &kp C_PP   &kp C_PREV   &kp C_NEXT
+                         &trans  &trans              &trans    &trans
             >;
         };
 
