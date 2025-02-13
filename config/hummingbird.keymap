@@ -37,6 +37,8 @@
     quick-tap-ms = <QUICK_TAP_MS>;
 };
 
+ZMK_CONDITIONAL_LAYER(sys_condition, NUM NAV, SYS)
+
 / {
     behaviors {
         hml: homerow_mods_left {
