@@ -95,7 +95,7 @@
 &kp SEMI  &kp COLON  &kp LT  &kp GT     &kp DOT      &kp C_VOL_UP  &kp C_VOL_DN  &kp K_MUTE  &kp END    &kp PG_UP
 &kp LBKT  &kp RBKT  &kp LPAR  &kp RPAR &kp COMMA     &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp PG_DN
          &kp EQUAL  &kp LBRC  &kp RBRC                          &kp C_PP   &kp C_PREV   &kp C_NEXT
-                         &TAB  &trans             &trans    &trans
+                         &kp TAB  &trans             &trans    &trans
             >;
         };
 
