@@ -37,9 +37,14 @@
     quick-tap-ms = <QUICK_TAP_MS>;
 };
 
-ZMK_CONDITIONAL_LAYER(sys_condition, NUM NAV, SYS)
-
 / {
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+        sys_condition {
+            if-layers = <NUM NAV>;
+            then-layer = <SYS>;
+        };
+    };
     behaviors {
         hml: homerow_mods_left {
             compatible = "zmk,behavior-hold-tap";
