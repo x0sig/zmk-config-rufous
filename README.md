@@ -2,7 +2,7 @@
 
 Firmware and personal keymap for [rufous](https://github.com/jcmkk3/trochilidae/tree/main), a ergo wireless keyboard.
 
-![keymap image](img/rufous.svg)
+![keymap image](img/hummingbird.svg)
 
 ## Building
 
