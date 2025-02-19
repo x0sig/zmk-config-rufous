@@ -1,0 +1,126 @@
+layout: {qmk_keyboard: hummingbird}
+layers:
+  default:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: A, h: LALT}
+  - {t: S, h: LGUI}
+  - {t: D, h: LCTRL}
+  - {t: F, h: LSHFT}
+  - G
+  - H
+  - {t: J, h: RSHFT}
+  - {t: K, h: RCTRL}
+  - {t: L, h: RGUI}
+  - {t: Z, h: RALT}
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ESC
+  - {t: ENTER, h: num}
+  - {t: SPACE, h: sym}
+  - BSPC
+  num:
+  - '`'
+  - '~'
+  - '@'
+  - ^
+  - '#'
+  - ''
+  - '7'
+  - '8'
+  - '9'
+  - TAB
+  - {t: $, h: LALT}
+  - {t: '&', h: LGUI}
+  - {t: '%', h: LCTRL}
+  - {t: _, h: LSHFT}
+  - '|'
+  - '0'
+  - {t: '4', h: RSHFT}
+  - {t: '5', h: RCTRL}
+  - {t: '6', h: RGUI}
+  - {t: DEL, h: RALT}
+  - ''
+  - ''
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  sym:
+  - ;
+  - ':'
+  - <
+  - '>'
+  - .
+  - '!'
+  - '?'
+  - ''''
+  - '"'
+  - '*'
+  - {t: '[', h: LALT}
+  - {t: ']', h: LGUI}
+  - {t: (, h: LCTRL}
+  - {t: ), h: LSHFT}
+  - ','
+  - \
+  - {t: +, h: RSHFT}
+  - {t: '-', h: RCTRL}
+  - {t: '=', h: RGUI}
+  - {t: /, h: RALT}
+  - ''
+  - '{'
+  - '}'
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  fn:
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - VOL UP
+  - VOL DN
+  - MUTE
+  - PP
+  - PG UP
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - LEFT
+  - {t: DOWN, h: RSHFT}
+  - {t: UP, h: RCTRL}
+  - {t: RIGHT, h: RGUI}
+  - {t: PG DN, h: RALT}
+  - F11
+  - F12
+  - PSCRN
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
