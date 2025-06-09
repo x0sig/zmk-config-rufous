@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: hummingbird}
+layout: {zmk_keyboard: hummingbird}
 layers:
   default:
   - Q
@@ -117,9 +117,9 @@ layers:
   - F11
   - F12
   - PSCRN
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {type: held}
   - {type: held}
